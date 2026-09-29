@@ -1,0 +1,4 @@
+export function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
+  // TODO: implement, targeting O(log(m+n))
+  return 0;
+}

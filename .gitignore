@@ -1,4 +1,9 @@
 node_modules/
 
-# compiled Go binary from `go build ./...`
-go/lanternfish/lanternfish
+# Go: only track source, module files, and docs — ignore compiled binaries
+# from `go build ./...` (which have no consistent extension to match on)
+go/*/*
+!go/*/*.go
+!go/*/go.mod
+!go/*/go.sum
+!go/*/README.md
