@@ -1,0 +1,4 @@
+node_modules/
+
+# compiled Go binary from `go build ./...`
+go/lanternfish/lanternfish
